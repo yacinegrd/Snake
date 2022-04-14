@@ -4,8 +4,8 @@ from classe import *
 #-- Declaration -----------------------------------------------------------#
 Run = True
 score = 0
-xicon = 280
-yicon = 320
+xicon = 235
+yicon = 240
 lose = False
 mysnake = snake()
 resolution = ( mysnake.vel*30 , mysnake.vel*30+34 )

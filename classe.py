@@ -135,14 +135,14 @@ def WriteScore(screen , text , i ):
 def YouLost(screen , text , icon , score):	
 	black = (0,0,0)
 	
-	x_pos = screen[0]
-	y_pos = screen[1]
+	#x_pos = screen[0]
+	#y_pos = screen[1]
 
-	pos = (220, 280)
+	pos = (170, 180)
 	screen.fill((204,204,204))
 	Lost_message = text.render("You Lost !" , True , black )
 	screen.blit( Lost_message , pos )
-	screen.blit(icon , (280 , 320))
+	screen.blit(icon , (235 , 240))
 	WriteScore(screen , text , score)
  
 def MouseClic( xicon , yicon):
